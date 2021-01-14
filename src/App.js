@@ -3,9 +3,7 @@ import HeaderControl from './components/headingComponents/HeadingControl'
 import './appStyle/appStyle.css'
 
 class App extends Component{
-  constructor(props){
-    super(props)
-  }
+
   render(){
     return (
       <div className="app">

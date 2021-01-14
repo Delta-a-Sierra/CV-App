@@ -3,9 +3,7 @@ import './style/heading.css'
 
 
 class HeaderPreview extends Component{
-    constructor(props){
-        super(props);
-    }
+
 
     render(){
         return(
@@ -21,7 +19,6 @@ class HeaderPreview extends Component{
             </div>
         );
     };
-
 };
 
 export default HeaderPreview;

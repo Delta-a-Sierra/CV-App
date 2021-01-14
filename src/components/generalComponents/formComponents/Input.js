@@ -5,14 +5,28 @@ import './FormStyles/inputStyle.css'
 class Input extends Component{
     constructor(props){
         super(props);
+
+        this.inputChange = this.inputChange.bind(this);
+        this.state = {
+            value: this.props.value
+        }
     }
 
+    inputChange(event){
+        this.setState({
+            value : event.target.value
+        })
+
+        this.props.onKeyPress(event) 
+    }
+
+
     render(){
-        let {formId, type, value} = this.props;
+        let {formId, type} = this.props;
         return(
             <div>
-                <label for={formId}>
-                    <input type={type} value={value} required id={formId}></input>
+                <label htmlFor={formId}>
+                    <input type={type} value={this.state.value} required id={formId} onChange={this.inputChange} ></input>
                     <span className='error hidden'>Error Message</span>
                 </label>
             </div>

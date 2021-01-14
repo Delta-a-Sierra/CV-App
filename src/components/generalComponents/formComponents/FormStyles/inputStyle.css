@@ -13,6 +13,6 @@ label {
 }
 
 .hidden {
-  visibility: hidden;
+  display: none;
 }
 /*# sourceMappingURL=inputStyle.css.map */
