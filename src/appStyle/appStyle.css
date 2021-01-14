@@ -1,0 +1,16 @@
+body {
+  background-color: #000000;
+}
+
+.app {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.cvBody {
+  width: 100%;
+  height: 100vh;
+  background-color: #14213D;
+}
+/*# sourceMappingURL=appStyle.css.map */
