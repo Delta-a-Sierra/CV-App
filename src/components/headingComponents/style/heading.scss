@@ -14,28 +14,34 @@ $accentColor1: #FCA311;
     align-items: center;
     flex-direction: column;
     padding: 3rem;
+
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 40vw;
+        margin-bottom: 1rem;
+    }
+
+    .avatar{
+        width: 100px;
+        height: 100px;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+
+    input{
+        text-align: center;
+        background-color: $accentColor1;
+        color: white;
+        font-size: 1.5rem;
+        outline: none;
+        border: 1px solid #c97d04;
+    }
+
 }
 
-.container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 40vw;
-    margin-bottom: 1rem;
-}
 
-.avatar{
-    width: 100px;
-    height: 100px;
-    border: 2px solid white;
-    border-radius: 50%;
-}
 
-input{
-    text-align: center;
-    background-color: $accentColor1;
-    color: white;
-    font-size: 1.5rem;
-    outline: none;
-    border: 1px solid #c97d04;
-}
+
+

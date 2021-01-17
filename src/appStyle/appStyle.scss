@@ -1,6 +1,8 @@
 $primaryColor1: #000000;
 $primaryColor2: #14213D;
 
+
+
 body{
     background-color: $primaryColor1;
 }
@@ -15,4 +17,9 @@ body{
     width: 100%;
     height: 100vh;
     background-color: $primaryColor2;
+    padding: 4rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 10%;
 }

@@ -1,0 +1,12 @@
+.summary h1 {
+  margin-bottom: 2rem;
+}
+
+.summary textarea {
+  min-height: 120px;
+  min-width: 100%;
+  text-align: justify;
+  color: white;
+  background-color: #14213D;
+}
+/*# sourceMappingURL=summaryStyle.css.map */

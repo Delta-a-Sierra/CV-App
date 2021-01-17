@@ -1,0 +1,25 @@
+$primaryColor2: #14213D;
+$borderColor2:  #040c1d;
+
+
+.contact{
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    .icon{
+        width: 30px;
+        height: 30px;
+        background-color: yellowgreen;
+    }
+
+    input{
+        background-color: $primaryColor2;
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+        outline: none;
+        border: 1px solid $borderColor2;
+    }
+}

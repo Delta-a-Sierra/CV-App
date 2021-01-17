@@ -11,16 +11,14 @@ class HeaderEdit extends Component{
         
     
         return(
-            <div>
-                <form className='heading'>
-                    <div className="container">
-                        <Input type="text" formId="firstName" value={firstName} onKeyPress={this.props.changeFirstName}/>
-                        <div className="avatar"></div>
-                        <Input type="text" formId="firstName" value={lastName} onKeyPress={this.props.changeLastName}/>
-                    </div>
-                    <Input type="text" formId="jobTitle" value={jobTitle} onKeyPress={this.props.changeJobTitle}/>
-                </form>
-            </div>
+            <form className='heading'>
+                <div className="container">
+                    <Input type="text" formId="firstName" value={firstName} onKeyPress={this.props.changeFirstName}/>
+                    <div className="avatar"></div>
+                    <Input type="text" formId="firstName" value={lastName} onKeyPress={this.props.changeLastName}/>
+                </div>
+                <Input type="text" formId="jobTitle" value={jobTitle} onKeyPress={this.props.changeJobTitle}/>
+            </form>
         );
     };
 };

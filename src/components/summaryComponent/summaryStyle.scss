@@ -1,0 +1,24 @@
+$primaryColor2: #14213D;
+
+.summary{
+    h1{
+        margin-bottom: 2rem;
+    }
+
+
+    textarea{
+        min-height: 120px;
+        min-width: 100%;
+        text-align: justify;
+        color: white;
+        background-color: $primaryColor2;
+        border: 1px solid $borderColor2;
+        outline: none;
+
+        &:focus{
+            outline: none;
+            border: 1px solid $borderColor2;
+        }
+    }
+}
+

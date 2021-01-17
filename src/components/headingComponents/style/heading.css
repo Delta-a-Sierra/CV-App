@@ -22,7 +22,7 @@
   padding: 3rem;
 }
 
-.container {
+.heading .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,14 +36,14 @@
   margin-bottom: 1rem;
 }
 
-.avatar {
+.heading .avatar {
   width: 100px;
   height: 100px;
   border: 2px solid white;
   border-radius: 50%;
 }
 
-input {
+.heading input {
   text-align: center;
   background-color: #FCA311;
   color: white;
