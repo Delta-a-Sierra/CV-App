@@ -3,7 +3,8 @@ import HeaderControl from './components/headingComponents/HeadingControl'
 import SummaryComponent from './components/summaryComponent/SummaryControl'
 import ContactControl from './components/ContactComponent/ContactControl'
 import ModeToggle from './components/modeToggle/ModeToggle';
-import './appStyle/appStyle.css'
+import './appStyle/appStyle.scss'
+import CareerControl from './components/careerComponents/CareerControl';
 
 class App extends Component{
   constructor(props){
@@ -40,9 +41,11 @@ class App extends Component{
         <HeaderControl mode={this.state.mode} />
         <div className="cvBody">
           <SummaryComponent mode={this.state.mode}/>
-          <div className="box">
+          <div>
             <ContactControl mode={this.state.mode}/>
           </div>
+          <CareerControl mode={this.state.mode} />
+
           
         </div>
       </div>

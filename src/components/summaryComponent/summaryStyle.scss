@@ -1,13 +1,16 @@
 $primaryColor2: #14213D;
 
 .summary{
+
+    max-height: fit-content;
+
     h1{
         margin-bottom: 2rem;
     }
 
 
     textarea{
-        min-height: 120px;
+        min-height: 20px;
         min-width: 100%;
         text-align: justify;
         color: white;

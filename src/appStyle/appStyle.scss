@@ -21,5 +21,6 @@ body{
     color: white;
     display: grid;
     grid-template-columns: 60% 30%;
-    gap: 10%;
+    grid-row: auto;
+    column-gap: 10%;
 }
