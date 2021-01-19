@@ -1,0 +1,48 @@
+$primaryColor2: #14213D;
+
+.careerHistory{
+
+    .container{
+        margin-top: 2rem;
+        display: flex;
+        gap: 2rem
+    }
+
+    .dates{
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .jobTitle{
+        display: flex;
+        align-items: flex-end;
+        gap: 3rem;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    input{
+        max-width: 5rem;
+        min-width: 5rem;
+        background-color: $primaryColor2;
+        color: white;
+    }
+
+    textarea{
+        min-width: 30vw;
+        min-height: 200px;
+        background-color: $primaryColor2;
+        color: white;
+    }
+    
+    .CompanyName{
+        max-width: 10rem;
+        min-width: 10rem;
+    }
+}
